@@ -1,10 +1,11 @@
 import React from "react"
 import SEO from '../components/seo'
+import Home from '../components/Home'
 
 const AboutMe = () => (
 	<>
 		<SEO title='About Me' />
-			<h1>Nosotros</h1>
+		<Home boton imagen="HomeImage.png" />
 	</>
 )
 

@@ -21,6 +21,8 @@ const Footer = () => {
                     <Info>
                         <Column1>
                             2020 - Build by <GithubLink href='https://github.com/IgnacioHuertaDev' target='_blanck'><strong>@IgnacioHuertaDev</strong></GithubLink>
+                            <br/>
+                            <a className="attribute" href="https://stories.freepik.com/marketing">Illustrations by Freepik Stories</a>
                         </Column1>
                         <Column2>
                             <SocialMedia color={colors.white}/>

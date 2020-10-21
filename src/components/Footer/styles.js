@@ -21,6 +21,11 @@ export const Info = styled.div`
 export const Column1 = styled.div`
     grid-column: 1 / 3;
     grid-row: 1;
+
+    & .attribute {
+        text-decoration: none;
+        color: ${colors.white};
+    }
 `
 
 export const Column2 = styled.div`

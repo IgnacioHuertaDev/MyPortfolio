@@ -1,7 +1,11 @@
-import React from "react"
+import React from 'react'
+import SEO from '../components/seo'
+import { Error404 } from '../components/Error'
 
-const NotFoundPage = () => (
-  <h1>hola</h1>
+const Error = () => (
+  <>
+    <SEO title='Error 404' />
+    <Error404 />
+  </>
 )
-
-export default NotFoundPage
+export default Error
