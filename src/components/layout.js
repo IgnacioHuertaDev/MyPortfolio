@@ -12,7 +12,6 @@ const Layout = (props) => {
         <Global
             styles={css`
             
-
                 html {
                     font-size: 62.5%;
                     height: 100%;
@@ -33,16 +32,14 @@ const Layout = (props) => {
                     height: 100%;
                 }
 
-                #gatsby-focus-wrapper{ 
-
-                    @media (mim-width: 1025px) {
-                        display: flex;
-                        flex-direction: column;
-                        height: 100%;            
-                    }
-                    
+                @media (min-width: 1025px) {
+                    #gatsby-focus-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;     
+                    } 
                 }
-
+                    
                 h1, h2, h3 {
                     margin: 0;
                     line-height: 1.5;
