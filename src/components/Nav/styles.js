@@ -1,10 +1,9 @@
-import React from 'react'
 import { Link } from 'gatsby'
 import style from '@emotion/styled';
 import styled from '@emotion/styled';
-import { colors } from '../styles/GlobalStyles'
+import { colors } from '../../styles/GlobalStyles'
 
-const Nav = style.nav`
+export const Nav = style.nav`
     display: flex;
     justify-content: center;
     padding-bottom: 3 rem;
@@ -13,7 +12,7 @@ const Nav = style.nav`
     }
 `;
 
-const NavLink = styled(Link)`
+export const NavLink = styled(Link)`
     color: ${colors.white};
     font-size: 1.6rem;
     font-weight: 700;
@@ -46,16 +45,3 @@ const NavLink = styled(Link)`
     color: ${colors.red};
   }
 `;
-
-const Navbar = () => {
-    return ( 
-        <Nav>
-            <NavLink to={'/'} activeClassName="actual-page">Home</NavLink>
-            <NavLink to={'/projects'} activeClassName="actual-page">Projects</NavLink>
-            <NavLink to={'/about'} activeClassName="actual-page">About me</NavLink>
-            <NavLink to={'/contact'} activeClassName="actual-page">Contact</NavLink>
-        </Nav>
-     );
-}
- 
-export default Navbar;

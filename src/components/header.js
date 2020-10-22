@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/core'
-import Navbar from './nav'
+import Navbar from './Nav'
 import Logo from '../components/Logo/logo'
 import { colors } from '../styles/GlobalStyles' 
 

@@ -33,6 +33,12 @@ const Layout = (props) => {
                     height: 100%;
                 }
 
+                #gatsby-focus-wrapper{ 
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                }
+
                 h1, h2, h3 {
                     margin: 0;
                     line-height: 1.5;
