@@ -1,7 +1,7 @@
 import React from "react"
 import Helmet from 'react-helmet'
 import { Global, css } from '@emotion/core'
-import Header from './Header'
+import Header from './header'
 import { colors } from '../styles/GlobalStyles'
 import Footer from './Footer'
 
