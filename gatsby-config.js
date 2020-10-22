@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ignacio Huerta`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Ignacio Huerta Web Page`,
     author: `@IgnacioHuertaDev`,
   },
   plugins: [
@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Ignacio Huerta Personal Web Page`,
+        short_name: `IH Dev`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#252535`,
+        theme_color: `#252535`,
         display: `minimal-ui`,
         icon: `src/images/logoRounded.png`, // This path is relative to the root of the site.
       },
