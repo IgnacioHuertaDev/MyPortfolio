@@ -34,9 +34,13 @@ const Layout = (props) => {
                 }
 
                 #gatsby-focus-wrapper{ 
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;
+
+                    @media (mim-width: 1025px) {
+                        display: flex;
+                        flex-direction: column;
+                        height: 100%;            
+                    }
+                    
                 }
 
                 h1, h2, h3 {
