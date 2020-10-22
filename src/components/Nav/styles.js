@@ -28,7 +28,7 @@ export const NavLink = styled(Link)`
         font-size: 1.3rem;            
     }
 
-    @media (max-width: 360px) {
+    @media (max-width: 375px) {
         font-size: 0.95rem;            
     }
 
