@@ -33,7 +33,7 @@ export const FormBox = () => {
   }
 
   return (
-    <Form action='https://formspree.io/maypzbkq' method='POST' onSubmit={submitForm}>
+    <Form action='https://formspree.io/f/xoqpdlpd' method='POST' onSubmit={submitForm}>
       <ContainerInput>
         <Label htmlFor='inputName' id='labelName'>Name</Label>
         <InputText type='text' name='name' id='inputName' required value={name.value} onChange={name.onChange} />
@@ -61,11 +61,11 @@ export const FormBox = () => {
 const MessageSent = ({ name }) => {
   return (
     <ContainerMessageSent>
-      <Image name='contactado2.png' />
+      <Image name='MailSent.png' />
       <h3 size='28px'>Message Sent!</h3>
       <p>
         Thanks for your message <b>{`${name}`}</b>,
-        i will reply as soon as possible :)
+        I will reply as soon as possible :)
       </p>
     </ContainerMessageSent>
   )

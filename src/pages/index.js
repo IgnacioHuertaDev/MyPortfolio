@@ -5,7 +5,7 @@ import Home from '../components/Home'
 const IndexPage = () => (
 	<>
 		<SEO title='Home' />
-    	<Home boton imagen="HomeImage.png" />
+    	<Home boton imagen="AboutImage.png" />
 	</>
 )
 

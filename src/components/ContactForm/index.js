@@ -3,6 +3,7 @@ import Image from '../image'
 import { FormBox } from '../Form'
 import { ContactContainer, Column1, Column2, Info, IconBox, SocialMediaBox } from './styles'
 import { SocialMedia } from '../SocialMedia'
+import { colors } from '../../styles/GlobalStyles'
 
 const ContactForm = () => {
   return (
@@ -15,7 +16,7 @@ const ContactForm = () => {
         <Info>
           <IconBox href='mailto:98nachohuerta@gmail.com'>
             <div>
-              <Image name='logo.png' />
+              <Image name='correo.png' />
             </div>
             <div>
               <h3>Mail To:</h3>
@@ -25,7 +26,7 @@ const ContactForm = () => {
         </Info>
 
         <SocialMediaBox>
-          <SocialMedia />
+          <SocialMedia color={colors.red}/>
         </SocialMediaBox>
 
       </Column1>

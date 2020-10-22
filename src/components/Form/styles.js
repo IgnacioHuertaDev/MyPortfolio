@@ -16,7 +16,7 @@ export const ContainerInput = styled.div`
 
 export const Label = styled.label`
   background: ${colors.background};
-  color: ${colors.blanco};
+  color: ${colors.white};
   font-weight: 500;
   position: absolute; 
   top: 13px;
@@ -33,13 +33,13 @@ export const Label = styled.label`
 
 export const InputText = styled.input`
   font-size: 14px;
-  color: ${colors.blanco};
+  color: ${colors.white};
   box-sizing: border-box;
   width: 100%;
   height: 50px;
   margin-bottom: 20px;
   background: transparent;
-  border: 1px solid ${colors.blanco};
+  border: 1px solid ${colors.white};
   border-radius: 5px;
   padding: 10px 20px;
   transition: all ease .3s;
@@ -53,7 +53,7 @@ export const InputText = styled.input`
 
 export const InputTextarea = styled.textarea`
   font-size: 14px;
-  color: ${colors.blanco};
+  color: ${colors.white};
   box-sizing: border-box;
   width: 100%;
   min-width: 100%;
@@ -63,7 +63,7 @@ export const InputTextarea = styled.textarea`
   max-height: 100px;
   margin-bottom: 20px;
   background: transparent;
-  border: 2px solid ${colors.blanco};
+  border: 2px solid ${colors.white};
   border-radius: 5px;
   padding: 10px 20px;
   transition: all ease .3s;

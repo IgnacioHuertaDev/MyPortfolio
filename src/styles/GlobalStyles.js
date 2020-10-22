@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const colors = {
-  white: '#ffffff',
+  white: '#FFFFFF',
+  black: '#000000',
   background: '#191923',
   bgNavbar: '#252535',
   border: '#32323d',

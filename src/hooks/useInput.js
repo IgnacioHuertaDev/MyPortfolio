@@ -22,7 +22,7 @@ export const useInput = (initialValue, textInputId, textLabelId) => {
         labelId.classList.add('active')
       })
     }
-  }, [value])
+  }, [value,textInputId, textLabelId])
 
   return { value, onChange, reset, removeActive }
 }
