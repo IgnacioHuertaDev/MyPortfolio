@@ -130,7 +130,7 @@ export const HomeTitle = styled.h1`
   @media (max-width: 768px) {
     font-size: 4rem !important;
 
-    span{
+    span {
       font-size: 2.5rem;
     }
   }
