@@ -17,7 +17,7 @@ import { SocialMedia } from '../SocialMedia'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-const Home = ({ boton, imagen }) => {
+const Home = ({ image }) => {
 
   useEffect(() => {
     Aos.init({ duration: 2000 })
@@ -27,7 +27,7 @@ const Home = ({ boton, imagen }) => {
       <>
         <HomeContainer>
           <Column1 data-aos="zoom-out-left">
-            <Image className="homeImage" name={imagen} />
+            <Image className="homeImage" name={image} />
           </Column1>
           <Column2>
             <HomeTop>
@@ -41,12 +41,11 @@ const Home = ({ boton, imagen }) => {
               <HomeCol3 data-aos="zoom-out-left">
                 <p >
                   I'm a web developer, i have experience working with .NET and React, currently i'm living in Argentina. Actually i'm dedicated to web development and some mobile applications.
-                </p>
-                {boton &&
-                  <Link to='/about'>
-                    <Boton>See more</Boton>
-                  </Link>}
-                  <SocialMedia className="socialmedia-home" color={colors.red}/>
+                </p>                
+                <Link to='/about'>
+                  <Boton>See more</Boton>
+                </Link>
+                <SocialMedia className="socialmedia-home" color={colors.red}/>
               </HomeCol3>
             </HomeBottom>
           </Column2>

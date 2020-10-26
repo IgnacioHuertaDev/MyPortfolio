@@ -1,13 +1,135 @@
 import styled from '@emotion/styled'
+import { colors } from '../../styles/GlobalStyles'
+
+export const AboutMeContainer = styled.section`
+  display: flex;
+  max-width: 1180px;
+  margin: 2% auto;
+  & .gatsby-image-wrapper{
+    width: 100%;
+    border-radius: 4px;
+  }
+  @media (max-width: 1025px) {
+    flex-direction: column;
+    & .gatsby-image-wrapper{
+      width: 80%;
+    }
+  }
+  @media (max-width: 768px) {
+    & .gatsby-image-wrapper{
+      width: 80%;
+    }
+  }
+`
+
+export const AboutMeTitle = styled.h1`
+	color: ${colors.red};
+  font-family: 'Raleway', sans-serif;
+  font-size: 6rem !important;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  
+  @media (max-width: 768px) {
+    font-size: 4rem !important;
+  }
+`
+
+export const Column1 = styled.div`
+  width: 40%;
+  display: flex;
+  align-items: center;
+
+  & .aboutImage {
+    width: 200px;
+  }
+
+  @media (max-width: 1025px) {
+    width: 100%;
+    justify-content: center;
+  }
+`
+export const Column2 = styled.div`
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 50px;
+
+  & p{
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+
+  @media (max-width: 1025px) {
+    width: 100%;
+    padding: 0;
+  }
+`
+
+export const AboutTop = styled.div`
+  display: flex;
+  @media (max-width: 1025px) {
+    margin: 0 4% 0 4%;
+  }
+`
+export const AboutCol1 = styled.div`
+  width: 80%;
+
+  & h1 {
+    margin: 5% auto 2% auto;
+    font-size: 3rem;
+  }
+
+  @media (max-width: 1025px) {
+    & h3{
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    & h1{
+      font-size: 2.5rem;
+    }
+  }
+`
+export const AboutBottom = styled.div`
+  display: flex;
+  @media (max-width: 1025px) {
+    margin: 0 4% 0 4%;
+  }
+`
+export const AboutCol2 = styled.div`
+  width: 100%;
+  & p{
+    line-height: 1.5em;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+`
+
+export const AboutInterest = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @media (max-width: 768px) {
+        margin: 0 4% 0 4%;
+    }
+`
 
 export const DescriptionContainer = styled.div`
   display: flex;
-  margin-top: 50px;
+  margin: 2% auto;
+  max-width: 1180px;
+
   @media (max-width: 768px) {
     flex-direction: column;
-    margin-top: 10px;
+    justify-content: center;
+    & .gatsby-image-wrapper{
+      width: 80%;
+    }
   }
 `
+
 export const ColExt = styled.div`
   width: 40%;
   padding: 0 20px;
@@ -18,7 +140,7 @@ export const ColExt = styled.div`
   }
   & p{
     line-height: 1.5em;
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 15px;
   }
   & ul li{
@@ -67,6 +189,7 @@ export const ImageContainer = styled.div`
   width: 80%;
   margin-bottom: 20px;
   cursor: pointer;
+  color: #ffffff;
   & section{
     opacity: 0;
     position: absolute;
@@ -101,6 +224,7 @@ export const ImageContainer = styled.div`
     height: 22px;
     margin: 2px 5px;
   }
+
   @media (max-width: 768px) {
     width: 100%;
     height: 100%;
