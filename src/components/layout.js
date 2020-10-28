@@ -43,6 +43,12 @@ const Layout = (props) => {
                     padding: 0;
                 }
 
+                #___gatsby {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                }
+
                 header{
                     flex: 0 0 auto;
                 }
@@ -51,27 +57,21 @@ const Layout = (props) => {
                     flex: 1 0 auto;
                 }
 
+                #gatsby-focus-wrapper{
+                    flex: 1 0 auto;     
+                } 
+
                 footer{
                     flex: 0 0 auto;
                 }
 
-                #___gatsby {
-                    display: flex;
-                    flex-direction: column;
-                }
-
-                #gatsby-focus-wrapper{
-                    width: 100%;
-                    height: 100%;     
-                } 
-
-                @media (min-width: 1025px) {
+                /* @media (min-width: 1025px) {
                     #gatsby-focus-wrapper{
                     display: flex;
                     flex-direction: column;
                     height: 100%;     
                     } 
-                }
+                } */
 
                 /* Estilos track de scroll */
                 ::-webkit-scrollbar {
