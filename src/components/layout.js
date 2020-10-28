@@ -24,20 +24,7 @@ const Layout = (props) => {
                     line-height: 1.5;
                     font-family: 'Montserrat', sans-serif;
                     color: ${colors.white};
-                }
-
-                #___gatsby {
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;
-                }
-
-                @media (min-width: 1025px) {
-                    #gatsby-focus-wrapper{
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;     
-                    } 
+                    overflow-x: hidden;
                 }
                     
                 h1, h2, h3 {
@@ -66,6 +53,26 @@ const Layout = (props) => {
 
                 footer{
                     flex: 0 0 auto;
+                }
+
+                #___gatsby {
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;
+                    width: 100%;
+                }
+
+                #gatsby-focus-wrapper{
+                    width: 100%;
+                    height: 100%;     
+                } 
+
+                @media (min-width: 1025px) {
+                    #gatsby-focus-wrapper{
+                    display: flex;
+                    flex-direction: column;
+                    height: 100%;     
+                    } 
                 }
 
                 /* Estilos track de scroll */

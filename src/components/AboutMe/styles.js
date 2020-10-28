@@ -116,7 +116,7 @@ export const AboutInterest = styled.div`
     }
 `
 
-export const DescriptionContainer = styled.div`
+export const DescriptionContainer = styled.section`
   display: flex;
   margin: 2% auto;
   max-width: 1180px;

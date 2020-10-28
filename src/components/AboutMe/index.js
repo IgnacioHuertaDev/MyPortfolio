@@ -12,6 +12,7 @@ import { colors } from '../../styles/GlobalStyles'
 const AboutMe = ({image}) => {
   return (
     <>
+    <div>
         <AboutMeContainer>
             <Column1>
                 <Image className="aboutImage" name={image} />
@@ -82,6 +83,7 @@ const AboutMe = ({image}) => {
                 </ColCen>
 
         </DescriptionContainer>
+    </div>
     </>
   )
 }
