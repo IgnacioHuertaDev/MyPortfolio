@@ -26,6 +26,15 @@ export const Column1 = styled.div`
         text-decoration: none;
         color: ${colors.white};
     }
+
+    @media (max-width: 765px) {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width: 435px) {
+        font-size: 1rem;
+    }
+
 `
 
 export const Column2 = styled.div`

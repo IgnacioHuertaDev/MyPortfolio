@@ -53,6 +53,7 @@ const Layout = (props) => {
                     flex: 0 0 auto;
                 }
 
+                /* Dev style */
                 .main-content{
                     flex: 1 0 auto;
                 }
@@ -64,14 +65,6 @@ const Layout = (props) => {
                 footer{
                     flex: 0 0 auto;
                 }
-
-                /* @media (min-width: 1025px) {
-                    #gatsby-focus-wrapper{
-                    display: flex;
-                    flex-direction: column;
-                    height: 100%;     
-                    } 
-                } */
 
                 /* Estilos track de scroll */
                 ::-webkit-scrollbar {
