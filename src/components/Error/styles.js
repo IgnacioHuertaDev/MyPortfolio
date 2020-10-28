@@ -4,8 +4,8 @@ export const ContainerError = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  .gatsby-image-wrapper{
-    width: 400px;
+  & .gatsby-image-wrapper{
+    width: 30%;
     margin-bottom: 30px;
   }
   & h1{
@@ -14,4 +14,5 @@ export const ContainerError = styled.div`
     margin-bottom: 15px;
     text-transform: uppercase;
   }
+
 `

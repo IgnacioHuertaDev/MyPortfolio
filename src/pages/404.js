@@ -4,7 +4,7 @@ import { Error404 } from '../components/Error'
 
 const Error = () => (
   <>
-    <SEO title='Error 404' />
+    <SEO title='Esta pagina no existe' />
     <Error404 />
   </>
 )
